@@ -48,6 +48,5 @@ see `.env.sample`
 
 #### UML
 
-![UML]('./uml.png')
-
+![UML]('uml.png')
 Link to an image of the UML for your application and response to events
