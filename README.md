@@ -1,52 +1,53 @@
-# server-deployment-practice
+# LAB - Class xx
 
-Live view on:
-https://server-deployment-assignment.onrender.com/
+## Project: Project Name Here
 
-[Motivation]
-This project is part of a class requirement for Code Fellows 401 lab-01.
+### Author: Student/Group Name
 
-[Overview]
-This application will send a response code 200, and the text "Hello World" when the path '/' is visited
+### Problem Domain
 
-[Architecture]
+Concise Description of why this app exists
 
-[Build Status]
+### Links and Resources
 
-[Code Style]
+- [ci/cd](http://xyz.com) (GitHub Actions)
+- [server-prod](http://xyz.com) (when applicable)
+- [server-dev](http://xyz.com) (when applicable)
 
-[Screenshots]
+### Setup
 
-[Tech/Framework used]
-"dependencies": {
-"cors": "^2.8.5",
-"dotenv": "^16.0.3",
-"eslint": "^8.28.0",
-"express": "^4.18.2",
-"jest": "^29.3.1",
-"supertest": "^6.3.1"
-}
-[Features]
+#### `.env` requirements (where applicable)
 
-[Code Examples]
+see `.env.sample`
 
-[Installation]
-type npm install in a terminal to install the dependencies.
+- PORT=3001
 
-[API reference]
+#### How to initialize/run your application (where applicable)
 
-[Tests]
-There is currently one test for the server
-Tests are ran with npm test
+- nodemon
 
-[How to Use?]
-npm start to run the live server
+#### Features / Routes
 
-[Contribute]
-This was a 'code along' assignment, the original code was written by Ryan Gallaway.
+- Feature One: Details of feature
+- Feature one: Deploy to Dev
+- GET : `/` - specific route to hit
+- GET : `/bad` - specific route to hit
+- Feature two: Deploy to Prod
+- GET : `/` - specific route to hit
+- GET : `/bad` - specific route to hit
 
-[Credits]
-The credit for the README.md template goes to Mygreatlearning!
+#### Tests
 
-[License]
-MIT
+- How do you run tests?
+  - npm test
+- Any tests of note?
+  - handles root path
+  - handles invalid paths
+  - handles error code 500
+- Describe any tests that you did not complete, skipped, etc
+
+#### UML
+
+![UML]('./uml.png')
+
+Link to an image of the UML for your application and response to events
