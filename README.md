@@ -1,18 +1,18 @@
-# LAB - Class xx
+# LAB - 401-D49 Lab-01
 
-## Project: Project Name Here
+## Project: server-deployment-practice
 
-### Author: Student/Group Name
+### Author: Lewis Benson
 
 ### Problem Domain
 
-Concise Description of why this app exists
+create and deploy a web server using CI and CD and get used to the general process of building and deploying servers, and prepping your work for grading
 
 ### Links and Resources
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [server-prod](http://xyz.com) (when applicable)
-- [server-dev](http://xyz.com) (when applicable)
+- [ci/cd](https://github.com/tm-LBenson/server-deployment-practice/actions) (GitHub Actions)
+- [server-prod](https://server-deployment-assignment.onrender.com/)
+- [server-dev](https://server-deployment-assignment-dev.onrender.com/)
 
 ### Setup
 
